@@ -7,9 +7,10 @@ import ContentAnalyzer from "../content-analyzer"
 import { Navigation } from "@/components/navigation"
 import { LanguageProvider } from "@/contexts/language-context"
 import FBACalculator from "../fba-calculator"
+import AmazonCalculator from "../amazon-calculator"
 
 export default function Page() {
-  const [activeSection, setActiveSection] = useState<"unit" | "currency" | "fba" | "content">("unit")
+  const [activeSection, setActiveSection] = useState<"unit" | "currency" | "fba" | "amazon" | "content">("unit")
 
   return (
     <LanguageProvider>
@@ -21,6 +22,7 @@ export default function Page() {
             {activeSection === "currency" && <CurrencyConverter />}
             {activeSection === "fba" && <FBACalculator />}
             {activeSection === "content" && <ContentAnalyzer />}
+            {activeSection === "amazon" && <AmazonCalculator />}
           </div>
         </div>
       </div>

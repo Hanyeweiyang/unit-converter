@@ -3,11 +3,11 @@
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 import { LanguageSwitcher } from "@/components/language-switcher"
-import { Calculator, DollarSign, FileText, Package } from "lucide-react"
+import { Calculator, DollarSign, FileText, Package, BarChart3 } from "lucide-react"
 
 interface NavigationProps {
-  activeSection: "unit" | "currency" | "fba" | "content"
-  onSectionChange: (section: "unit" | "currency" | "fba" | "content") => void
+  activeSection: "unit" | "currency" | "fba" | "amazon" | "content"
+  onSectionChange: (section: "unit" | "currency" | "fba" | "amazon" | "content") => void
 }
 
 export function Navigation({ activeSection, onSectionChange }: NavigationProps) {
@@ -41,6 +41,14 @@ export function Navigation({ activeSection, onSectionChange }: NavigationProps) 
             >
               <Package className="h-4 w-4" />
               <span className="hidden sm:inline">{t("fbaCalculator")}</span>
+            </Button>
+            <Button
+              variant={activeSection === "amazon" ? "default" : "ghost"}
+              onClick={() => onSectionChange("amazon")}
+              className="flex items-center gap-2"
+            >
+              <BarChart3 className="h-4 w-4" />
+              <span className="hidden sm:inline">{t("amazonCalculator")}</span>
             </Button>
             <Button
               variant={activeSection === "content" ? "default" : "ghost"}

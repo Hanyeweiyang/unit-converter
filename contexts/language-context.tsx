@@ -634,6 +634,170 @@ const translations: Translations = {
     en: "Enter your product details to calculate FBA profit margins",
     zh: "输入产品详情以计算FBA利润率",
   },
+
+  // Amazon Profit Calculator
+  amazonCalculator: {
+    en: "Amazon Calculator",
+    zh: "亚马逊计算器",
+  },
+  amazonCalculatorTitle: {
+    en: "Amazon Profit Calculator",
+    zh: "亚马逊利润计算器",
+  },
+  amazonCalculatorDescription: {
+    en: "Comprehensive Amazon profit analysis including advertising costs, returns, and all associated expenses.",
+    zh: "全面的亚马逊利润分析，包括广告费用、退货和所有相关支出。",
+  },
+
+  // Additional cost fields
+  advertisingCosts: {
+    en: "Advertising Costs (PPC)",
+    zh: "广告费用 (PPC)",
+  },
+  returnRate: {
+    en: "Return Rate (%)",
+    zh: "退货率 (%)",
+  },
+  returnProcessingFee: {
+    en: "Return Processing Fee",
+    zh: "退货处理费",
+  },
+  miscellaneousExpenses: {
+    en: "Miscellaneous Expenses",
+    zh: "杂项费用",
+  },
+  longTermStorageFee: {
+    en: "Long-term Storage Fee",
+    zh: "长期仓储费",
+  },
+  removalFee: {
+    en: "Removal Fee",
+    zh: "移除费用",
+  },
+  inventoryPlacementFee: {
+    en: "Inventory Placement Fee",
+    zh: "库存配置费",
+  },
+
+  // Advanced calculations
+  netProfitAfterExpenses: {
+    en: "Net Profit After All Expenses",
+    zh: "扣除所有费用后净利润",
+  },
+  totalExpenses: {
+    en: "Total Expenses",
+    zh: "总费用",
+  },
+  effectiveProfitMargin: {
+    en: "Effective Profit Margin",
+    zh: "有效利润率",
+  },
+  costPerAcquisition: {
+    en: "Cost Per Acquisition (CPA)",
+    zh: "获客成本 (CPA)",
+  },
+  advertisingCostOfSales: {
+    en: "Advertising Cost of Sales (ACoS)",
+    zh: "广告销售成本比 (ACoS)",
+  },
+  totalAdvertisingCost: {
+    en: "Total Advertising Cost",
+    zh: "总广告费用",
+  },
+  returnLosses: {
+    en: "Return Losses",
+    zh: "退货损失",
+  },
+
+  // Advanced analysis
+  advancedAnalysis: {
+    en: "Advanced Analysis",
+    zh: "高级分析",
+  },
+  profitabilityScore: {
+    en: "Profitability Score",
+    zh: "盈利能力评分",
+  },
+  riskAssessment: {
+    en: "Risk Assessment",
+    zh: "风险评估",
+  },
+  lowRisk: {
+    en: "Low Risk",
+    zh: "低风险",
+  },
+  mediumRisk: {
+    en: "Medium Risk",
+    zh: "中等风险",
+  },
+  highRisk: {
+    en: "High Risk",
+    zh: "高风险",
+  },
+
+  // Placeholders and tips
+  enterPercentage: {
+    en: "Enter percentage",
+    zh: "输入百分比",
+  },
+  advertisingTips: {
+    en: "Advertising Tips",
+    zh: "广告建议",
+  },
+  returnManagement: {
+    en: "Return Management",
+    zh: "退货管理",
+  },
+  expenseOptimization: {
+    en: "Expense Optimization",
+    zh: "费用优化",
+  },
+  advertisingTipsContent: {
+    en: "Keep ACoS below 30% for healthy profit margins. Monitor keyword performance and adjust bids regularly.",
+    zh: "保持ACoS低于30%以确保健康的利润率。监控关键词表现并定期调整出价。",
+  },
+  returnManagementContent: {
+    en: "Minimize returns through accurate product descriptions, quality images, and proper packaging.",
+    zh: "通过准确的产品描述、高质量图片和适当包装来减少退货。",
+  },
+  expenseOptimizationContent: {
+    en: "Track all expenses carefully. Consider bulk shipping and inventory optimization to reduce costs.",
+    zh: "仔细跟踪所有费用。考虑批量运输和库存优化以降低成本。",
+  },
+
+  // Status and recommendations
+  excellent: {
+    en: "Excellent",
+    zh: "优秀",
+  },
+  good: {
+    en: "Good",
+    zh: "良好",
+  },
+  fair: {
+    en: "Fair",
+    zh: "一般",
+  },
+  poor: {
+    en: "Poor",
+    zh: "较差",
+  },
+  optimizeAdvertising: {
+    en: "Optimize Advertising",
+    zh: "优化广告",
+  },
+  reduceReturns: {
+    en: "Reduce Returns",
+    zh: "减少退货",
+  },
+  improveMargins: {
+    en: "Improve Margins",
+    zh: "提高利润率",
+  },
+  additionalExpenses: {
+    en: "Additional Expenses",
+    zh: "额外费用",
+  },
 }
 
 // Unit translations
