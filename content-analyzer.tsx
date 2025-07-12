@@ -187,7 +187,7 @@ export default function ContentAnalyzer() {
               ))}
             </div>
 
-            <Button variant="outline" onClick={addBulletPoint} className="w-full">
+            <Button variant="outline" onClick={addBulletPoint} className="w-full bg-transparent">
               <Plus className="h-4 w-4 mr-2" />
               {t("addBulletPoint")}
             </Button>
@@ -246,7 +246,7 @@ export default function ContentAnalyzer() {
               ))}
             </div>
 
-            <Button variant="outline" onClick={addSearchTermLine} className="w-full">
+            <Button variant="outline" onClick={addSearchTermLine} className="w-full bg-transparent">
               <Plus className="h-4 w-4 mr-2" />
               {t("addSearchTermLine")}
             </Button>
@@ -261,7 +261,7 @@ export default function ContentAnalyzer() {
                   </div>
                 </div>
               </CardContent>
-            </div>
+            </Card>
           </CardContent>
         </Card>
       </div>
