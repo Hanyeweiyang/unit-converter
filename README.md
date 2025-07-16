@@ -17,11 +17,15 @@
 - **重量单位转换**：支持毫克(mg)、克(g)、千克(kg)、盎司(oz)、磅(lb)、吨(ton)等单位之间的相互转换
 - **直观的结果展示**：实时计算，清晰展示所有单位的转换结果
 
+![图片描述](./public/单位转化器.png)
+
 ### 2. 货币转换器
 
 - **多币种支持**：支持人民币(CNY)、美元(USD)、欧元(EUR)、英镑(GBP)等主要货币
 - **实时汇率**：提供最新汇率数据，支持手动更新和定时自动更新
 - **直观的转换展示**：显示详细的汇率和转换金额
+
+![图片描述](./public/货币转化器.png)
 
 ### 3. 亚马逊 FBA 费用计算器
 
@@ -29,9 +33,14 @@
 - **多品类支持**：支持电子产品、服装、图书等不同品类的费用计算
 - **盈利分析**：自动计算毛利润、利润率、投资回报率和建议售价
 
+![图片描述](./public/FBA计算器.png)
+![图片描述](./public/利润计算器.png)
+
 ### 4. 亚马逊内容分析器
 
 - 帮助卖家分析产品描述和内容质量
+
+![图片描述](./public/内容分析器.png)
 
 ## 技术栈
 
@@ -51,7 +60,7 @@
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/Hanyeweiyang/unit-converter.git
 cd unit-converter
 
 # 使用pnpm安装依赖
@@ -79,15 +88,6 @@ pnpm lint
 项目已部署在 Vercel 平台：
 
 **[https://zjh-unit-converter.vercel.app/](https://zjh-unit-converter.vercel.app/)**
-
-## 源码与开发
-
-本项目基于 v0.dev 平台开发，使用 Next.js 框架构建。所有代码更改会自动同步到 GitHub 仓库，并通过 Vercel 进行持续部署。
-
-如需继续开发，可以通过以下两种方式：
-
-1. 本地开发：克隆仓库后，按照上述开发环境配置进行操作
-2. v0.dev 平台：访问 **[https://v0.dev/chat/projects/LKOogpA2ml4](https://v0.dev/chat/projects/LKOogpA2ml4)** 继续开发
 
 ## 项目结构说明
 
