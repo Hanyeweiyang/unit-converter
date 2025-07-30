@@ -1,4 +1,4 @@
-# E-commerce 多功能单位转换器
+# 电商工具集
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/hanyeweiyangs-projects/v0-e-commerce-unit-converter)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LKOogpA2ml4)
@@ -7,7 +7,7 @@
 
 ## 项目概述
 
-多功能单位转换器是一个为电商领域设计的实用工具集合，帮助用户轻松完成各种计算和转换任务。项目采用现代化前端技术栈，提供直观友好的用户界面和多语言支持。
+电商工具集是一个为电商领域设计的实用工具集合，帮助用户轻松完成各种计算，转换和分析任务。项目采用现代化前端技术栈，提供直观友好的用户界面和多语言支持。
 
 ## 主要功能
 
@@ -98,16 +98,6 @@ pnpm lint
 - `/services` - 后端服务接口，如汇率服务
 - `/public` - 静态资源文件
 - `/styles` - 全局样式定义
-
-## 贡献指南
-
-欢迎对项目提出改进建议或贡献代码。请遵循以下步骤：
-
-1. Fork 项目仓库
-2. 创建新的分支 (`git checkout -b feature/your-feature`)
-3. 提交更改 (`git commit -m "Add your feature"`)
-4. 推送到分支 (`git push origin feature/your-feature`)
-5. 创建 Pull Request
 
 ## 许可证
 
