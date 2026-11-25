@@ -1,6 +1,6 @@
 # 电商工具集
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/hanyeweiyangs-projects/v0-e-commerce-unit-converter)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://unit-converter-nine-beige.vercel.app/)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LKOogpA2ml4)
 [![Next.js](https://img.shields.io/badge/Next.js-15.2.4-blue?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -87,7 +87,7 @@ pnpm lint
 
 项目已部署在 Vercel 平台：
 
-**[https://zjh-unit-converter.vercel.app/](https://zjh-unit-converter.vercel.app/)**
+**[在线使用电商工具集](https://unit-converter-nine-beige.vercel.app/)**
 
 ## 项目结构说明
 
